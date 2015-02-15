@@ -1,8 +1,3 @@
-<?php 
-$path = $_SERVER['DOCUMENT_ROOT'];
-$path .= "/phpprojects/includes/header.php";
-include_once($path);
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -13,10 +8,6 @@ include_once($path);
 <link rel="stylesheet" type="text/css" href="../css/default.css">
 </head>
 <body>
-	<div id="header">
-		<?php getMenu(); ?> 
-    </div>
-    <br />
     <div id="mainBody">
     <table width="100%">
     	<tr>
